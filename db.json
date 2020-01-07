@@ -1,11 +1,11 @@
 {
   "logs": [
     {
-      "message": "Switch router in server 001",
-      "attention": true,
-      "tech": "John Doe",
-      "date": "2020-01-07T06:18:27.325Z",
-      "id": 1
+      "id": 1,
+      "message": "Fixed: Switch router in server 001",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2020-01-07T17:21:22.893Z"
     },
     {
       "message": "Upgrade windows in computer 011",
