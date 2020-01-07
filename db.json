@@ -1,18 +1,18 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changed hard drive on workstation 005",
-      "attention": false,
-      "date": "2019-03-02",
-      "tech": "Sam Smith"
+      "message": "Switch router in server 001",
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2020-01-07T06:18:27.325Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "message": "workstation 002 not posting",
-      "attention": true,
-      "date": "2019-03-29",
-      "tech": "John Doe"
+      "message": "Upgrade windows in computer 011",
+      "attention": false,
+      "tech": "Sam Smith",
+      "date": "2020-01-07T06:19:17.038Z",
+      "id": 2
     }
   ],
   "techs": [
