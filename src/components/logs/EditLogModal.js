@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import PropTypes from 'prop-types';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import { updateLog } from '../../actions/logActions';
+import TechSelectionOptions from '../techs/TechSelectionOptions';
 
 const EditLogModal = () => {
   const [message, setMessage] = useState('');
@@ -70,9 +70,7 @@ const EditLogModal = () => {
               <option value='' disabled>
                 Select Technician
               </option>
-              <option value='John Doe'>John Doe</option>
-              <option value='Sam Smith'>Sam Smith</option>
-              <option value='Sara Wilson'>Sara Wilson</option>
+              <TechSelectionOptions />
             </select>
           </div>
         </div>
@@ -112,9 +110,5 @@ const modalStyle = {
   height: '75%'
 };
 
-EditLogModal.propTypes = {
-  updateLog: PropTypes.func.isRequired,
-  currrent: PropTypes.object,
-}
 
 export default EditLogModal;
